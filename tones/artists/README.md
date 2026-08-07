@@ -4,6 +4,7 @@ Personal interpretations of sounds associated with particular artists or songs l
 
 ## Index
 
+- [Metallica — Enter Sandman (Main Rhythm)](metallica/enter-sandman.md)
 - [Metallica — Seek & Destroy (Main Riff)](metallica/seek-and-destroy.md)
 
 ## Organisation
