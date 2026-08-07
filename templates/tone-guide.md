@@ -15,16 +15,16 @@
 | Tone Studio version | [Version used when documenting the tone] |
 | Last verified | [YYYY-MM-DD] |
 
-## Guitar and playing setup
+## Playing setup
 
 | Setting | Value |
 | --- | --- |
-| Guitar | [Model or relevant construction] |
-| Pickups | [Pickup model/type] |
-| Pickup position | [Bridge, middle, neck, split, etc.] |
+| Recommended pickup | [Generic type/position, such as bridge humbucker or neck single coil] |
 | Tuning | [Tuning] |
 | Guitar controls | [Volume/tone settings] |
 | Technique | [Pick, fingers, palm muting, slide, etc.] |
+
+Use generic pickup guidance. Do not identify a contributor's personal guitar, local liveset, source filename, file path, or imported patch.
 
 ## Target character
 
@@ -168,7 +168,7 @@ These settings describe the environment used to evaluate the tone. They may be g
 
 ## Playing notes
 
-- [Pickup or guitar-control changes for different sections]
+- [Generic pickup or guitar-control changes for different sections]
 - [Technique or dynamics that make the tone respond correctly]
 - [Foot-controller, expression-pedal, or solo-switch usage]
 
@@ -184,7 +184,7 @@ These settings describe the environment used to evaluate the tone. They may be g
 
 - [Optional links or notes about the sound that inspired this tone.]
 
-References identify inspiration only; do not copy copyrighted lyrics, notation, recordings, or artwork into the guide.
+References identify public inspiration only. Do not list private livesets or imported patch details, and do not copy copyrighted lyrics, notation, recordings, or artwork into the guide.
 
 ## Revision history
 

@@ -4,7 +4,7 @@ Personal interpretations of sounds associated with particular artists or songs l
 
 ## Index
 
-No artist or song guides have been published yet.
+- [Metallica — Seek & Destroy (Main Riff)](metallica/seek-and-destroy.md)
 
 ## Organisation
 

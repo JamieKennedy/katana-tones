@@ -11,7 +11,7 @@ This repository intentionally contains written guides rather than downloadable l
 | [Artists and songs](tones/artists/) | Personal interpretations of tones associated with particular artists or songs. |
 | [General tones](tones/general/) | Reusable sounds organised by style, gain level, texture, or purpose. |
 
-The collection is currently being set up. Tone guides will be added as settings are documented from the local livesets.
+Tone guides are added as their settings are documented and refined.
 
 ## Compatibility
 
@@ -23,7 +23,7 @@ Treat every guide as a repeatable starting point rather than a promise of an ide
 
 1. Open BOSS Tone Studio for Katana Gen 3 and create a new tone setting.
 2. Copy the amplifier, EQ, signal-chain, and enabled-effect values from the guide.
-3. Match the documented guitar and pickup setup where practical.
+3. Use the recommended pickup, tuning, controls, and playing guidance where practical.
 4. Set the master volume and Power Control for your environment.
 5. Use the guide's adjustment notes to compensate for your guitar, speaker position, room, and volume.
 
@@ -38,6 +38,7 @@ For the complete effect definitions and parameter ranges, see the official [BOSS
 - Folder and file names use lowercase kebab-case; headings preserve the correct display names.
 - New guides start from [`templates/tone-guide.md`](templates/tone-guide.md).
 - The relevant collection index is updated whenever a guide is added.
+- Guides use generic pickup guidance and do not identify a contributor's personal guitar.
 - Local BOSS livesets (`*.tsl`) are ignored and are not published.
 
 ## Artist and song disclaimer
