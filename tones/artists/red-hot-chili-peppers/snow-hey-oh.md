@@ -33,9 +33,9 @@ The recording includes octave processing during the outro. The optional pitch-sh
 ## Signal chain
 
 ```text
-Input -> Mod: Compressor -> FX: Pitch Shifter (stored Off) -> Pushed Amp
+Input -> Mod: Compressor -> FX: Pitch Shifter (stored Off; switch on for outro) -> Pushed Amp
       -> Channel EQ (Amp Out) -> Noise Suppressor -> Volume Pedal
-      -> Delay (Off) -> Reverb -> Output
+      -> Reverb -> Output
 ```
 
 ## Amplifier
@@ -57,13 +57,11 @@ Keep the Gain low enough that the main riff stays clean. The Pushed character is
 
 ## Effects overview
 
-| Block | On/Off | Type | Primary level/knob |
-| --- | --- | --- | ---: |
-| Booster | Off | Clean Boost | Drive 0 |
-| Mod | On | Compressor | Level 55 |
-| FX | Off | Pitch Shifter | Direct Mix 80 |
-| Delay | Off | Digital | Effect Level 0 |
-| Reverb | On | Room | Effect Level 10 |
+| Block | On/Off | Type | Primary level/knob | Usage |
+| --- | --- | --- | ---: | --- |
+| Mod | On | Compressor | Level 55 | Main tone |
+| FX | Off | Pitch Shifter | Direct Mix 80 | Switch on for the octave-rich outro |
+| Reverb | On | Room | Effect Level 10 | Main tone |
 
 ### Mod
 
@@ -147,32 +145,6 @@ The broad 2 kHz lift helps the individual notes speak, while the low-mid reducti
 
 If the ends of notes disappear unnaturally, lower Threshold before changing anything else.
 
-### Pedal FX
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Position | Input |
-| Type | Pedal Wah |
-
-### Solo
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Solo Level | 50 |
-| Solo EQ | Off |
-
-### Send/return
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Position | Post FV |
-| Mode | Series |
-| Send Level | 100 |
-| Return Level | 100 |
-
 ## Playback context
 
 These settings describe a practical starting environment rather than mandatory stored settings.
@@ -217,4 +189,5 @@ These settings describe a practical starting environment rather than mandatory s
 
 | Date | Change |
 | --- | --- |
+| 2026-08-07 | Removed unused disabled effects and retained the stored-Off pitch shifter with its outro activation note. |
 | 2026-08-07 | Initial documented settings for the main clean arpeggio and optional octave-rich outro. |

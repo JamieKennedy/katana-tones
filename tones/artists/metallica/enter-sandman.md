@@ -44,15 +44,10 @@ Select a Chain 1-style order in Tone Studio:
 ```text
 Input
   -> T-Scream Booster
-  -> Mod (Off)
   -> Lead Amplifier
   -> Channel EQ (Amp Out)
-  -> FX (Off)
   -> Noise Suppressor
   -> Volume Pedal
-  -> Digital Delay (Off)
-  -> Plate Reverb (Off)
-  -> Send/Return (Off, Post FV)
   -> Output
 ```
 
@@ -79,13 +74,9 @@ Use Master Volume and Power Control—not Channel Volume—to set physical loudn
 
 ## Effects overview
 
-| Block | On/Off | Type | Primary level |
-| --- | --- | --- | ---: |
-| Booster | On | T-Scream | Effect Level 78 |
-| Mod | Off | Chorus | Inactive |
-| FX | Off | Parametric EQ | Inactive |
-| Delay | Off | Digital | Inactive |
-| Reverb | Off | Plate | Inactive |
+| Block | On/Off | Type | Primary level | Usage |
+| --- | --- | --- | ---: | --- |
+| Booster | On | T-Scream | Effect Level 78 | Main tone |
 
 ## Booster
 
@@ -105,42 +96,6 @@ Use Master Volume and Power Control—not Channel Volume—to set physical loudn
 The low Drive avoids adding a second layer of fuzzy distortion. Bottom at -20 removes loose bass before the amplifier, while the strong Effect Level pushes the Lead preamp and improves pick response.
 
 If the sound becomes nasal, reduce Effect Level before increasing Bass.
-
-## Mod
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assigned type | Chorus |
-
-This block makes no audible contribution while disabled.
-
-## FX
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assigned type | Parametric EQ |
-
-The separate Channel EQ performs the required tonal correction, leaving the FX block available for another assignment.
-
-## Delay
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assigned type | Digital |
-
-Delay is disabled so repeated low-string notes and rests remain distinct.
-
-## Reverb
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assigned type | Plate |
-
-The core patch is intentionally dry. Add room ambience during recording or through the venue rather than softening the riff inside the tone.
 
 ## Additional tone settings
 
@@ -174,34 +129,6 @@ The broad 160 Hz lift adds controlled weight and low-mid punch. The small 800 Hz
 | Release | 48 |
 
 Threshold 42 should control idle noise while allowing held chords to decay. Raise it only as far as necessary; an aggressive threshold will make note endings sound artificial.
-
-### Pedal FX
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Type | Wah 95E |
-| Position | Input |
-
-The wah assignment is inactive. A separate lead patch is recommended for the solo.
-
-### Solo
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Solo Level | 50 |
-| Solo EQ | Off |
-
-### Send/return
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Position | Post FV |
-| Mode | Series |
-| Send Level | 50 |
-| Return Level | 50 |
 
 ## Playback context
 
@@ -311,4 +238,5 @@ These Katana settings translate those broad characteristics into a single-combo 
 
 | Date | Change |
 | --- | --- |
+| 2026-08-07 | Removed unused disabled effects and optional settings from the guide. |
 | 2026-08-07 | Initial documented main-rhythm settings and adjustment guidance. |

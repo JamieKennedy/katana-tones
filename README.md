@@ -22,12 +22,12 @@ Treat every guide as a repeatable starting point rather than a promise of an ide
 ## How to use a guide
 
 1. Open BOSS Tone Studio for Katana Gen 3 and create a new tone setting.
-2. Copy the amplifier, EQ, signal-chain, and enabled-effect values from the guide.
+2. Copy the amplifier, EQ, signal-chain, and listed effect values from the guide.
 3. Use the recommended pickup, tuning, controls, and playing guidance where practical.
 4. Set the master volume and Power Control for your environment.
 5. Use the guide's adjustment notes to compensate for your guitar, speaker position, room, and volume.
 
-Values are written using the labels and scales shown in BOSS Tone Studio. Effects marked **Off** are intentionally disabled. Master volume and other system-level settings are recorded as context because they are not necessarily stored as part of a tone setting.
+Values are written using the labels and scales shown in BOSS Tone Studio. Unused disabled effects are omitted. An effect appears as **Off** only when it is stored that way for activation during a named song section; the guide notes when to switch it on. Master volume and other system-level settings are recorded as context because they are not necessarily stored as part of a tone setting.
 
 For the complete effect definitions and parameter ranges, see the official [BOSS Tone Studio for Katana Gen 3 guide](https://static.roland.com/assets/media/pdf/BTS_KTN3_PC_eng01_W.pdf).
 

@@ -33,10 +33,10 @@ Use generic pickup guidance. Do not identify a contributor's personal guitar, lo
 ## Signal chain
 
 ```text
-Input -> [Booster] -> [Mod] -> Amp -> [FX] -> [Delay] -> [Reverb] -> Output
+Input -> [Enabled effect] -> Amp -> [Enabled effect] -> Output
 ```
 
-Replace the example above with the exact order shown in BOSS Tone Studio, including volume-pedal, send/return, and EQ blocks when they matter.
+Replace the example above with the exact order shown in BOSS Tone Studio. Include only blocks that are enabled, plus any block stored Off specifically so it can be switched on for a later song section. Label a stored-Off block and its activation point directly in the chain. Include volume-pedal, send/return, and EQ blocks only when they matter.
 
 ## Amplifier
 
@@ -55,25 +55,16 @@ Replace the example above with the exact order shown in BOSS Tone Studio, includ
 
 ## Effects overview
 
-| Block | On/Off | Type | Primary level/knob |
-| --- | --- | --- | ---: |
-| Booster | [Off / On] | [Type] | [Value] |
-| Mod | [Off / On] | [Type] | [Value] |
-| FX | [Off / On] | [Type] | [Value] |
-| Delay | [Off / On] | [Type] | [Value] |
-| Reverb | [Off / On] | [Type] | [Value] |
+| Block | On/Off | Type | Primary level/knob | Usage |
+| --- | --- | --- | ---: | --- |
+| [Enabled block] | On | [Type] | [Value] | [Always on or relevant section] |
+| [Later-song block] | Off | [Type] | [Value] | Switch on for [named song section] |
 
-Keep all five blocks in the overview so disabled effects are explicit. Complete the detailed sections for enabled effects and remove placeholder rows that do not apply.
+List only effect blocks that contribute to the guide. Omit a block when it is Off and is not needed. Keep a block stored Off only when it must be switched on later in the song, and state exactly when to activate it in the Usage column and its detailed section. If no effect block is used anywhere in the guide, remove the entire Effects overview section.
 
-### Booster
+Create one detailed subsection for each block listed above, using the block name and effect type in the heading. Do not create subsections for omitted blocks.
 
-| Parameter | Value |
-| --- | ---: |
-| Type | [Effect type] |
-| [Parameter] | [Value] |
-| [Parameter] | [Value] |
-
-### Mod
+### [Block] — [Effect type]
 
 | Parameter | Value |
 | --- | ---: |
@@ -81,31 +72,11 @@ Keep all five blocks in the overview so disabled effects are explicit. Complete 
 | [Parameter] | [Value] |
 | [Parameter] | [Value] |
 
-### FX
-
-| Parameter | Value |
-| --- | ---: |
-| Type | [Effect type] |
-| [Parameter] | [Value] |
-| [Parameter] | [Value] |
-
-### Delay
-
-| Parameter | Value |
-| --- | ---: |
-| Type | [Effect type] |
-| [Parameter] | [Value] |
-| [Parameter] | [Value] |
-
-### Reverb
-
-| Parameter | Value |
-| --- | ---: |
-| Type | [Effect type] |
-| [Parameter] | [Value] |
-| [Parameter] | [Value] |
+[For a stored-Off effect, state that it should remain Off initially and name the song section where it should be switched on.]
 
 ## Additional tone settings
+
+Include only additional tone settings that are enabled or otherwise materially affect this guide. Omit disabled Channel EQ, Noise Suppressor, Pedal FX, Solo, and Send/Return subsections. Apply the same later-song exception used above: a stored-Off setting may remain only when the player needs to switch it on for a named section, with a clear activation note.
 
 ### Channel EQ
 
@@ -151,7 +122,7 @@ Keep all five blocks in the overview so disabled effects are explicit. Complete 
 | Send Level | [0–100] |
 | Return Level | [0–100] |
 
-Remove unused optional subsections only after their disabled state is clear elsewhere in the guide.
+Remove every unused or disabled optional subsection unless it is intentionally stored Off for activation later in the song.
 
 ## Playback context
 

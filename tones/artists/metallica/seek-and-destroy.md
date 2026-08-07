@@ -46,11 +46,7 @@ Confirm the movable block order visually in Tone Studio if your chain display di
 Input
   -> RAT Booster
   -> Lead Amplifier
-  -> Channel EQ (Off)
-  -> Noise Suppressor (Off)
   -> Volume Pedal
-  -> Digital Delay (Off)
-  -> Plate Reverb (Off)
   -> Send/Return (Post FV, Series)
   -> Output
 ```
@@ -78,13 +74,9 @@ The relatively strong Middle setting helps retain the rawer *Kill ’Em All* cha
 
 ## Effects overview
 
-| Block | On/Off | Type | Primary level |
-| --- | --- | --- | ---: |
-| Booster | On | RAT | Effect Level 70 |
-| Mod | Off | Pitch Shifter | Inactive |
-| FX | Off | Parametric EQ | Inactive |
-| Delay | Off | Digital | Inactive |
-| Reverb | Off | Plate | Inactive |
+| Block | On/Off | Type | Primary level | Usage |
+| --- | --- | --- | ---: | --- |
+| Booster | On | RAT | Effect Level 70 | Main tone |
 
 ## Booster
 
@@ -107,81 +99,7 @@ Tone at -10 softens the upper edge before it reaches the Lead amplifier. Bottom 
 
 The BOSS RAT model is described as modelling a Pro Co RAT. Its settings here are a Katana interpretation, not a claim about the precise pedal settings used on the recording.
 
-## Mod
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assigned type | Pitch Shifter |
-
-This block makes no audible contribution while disabled.
-
-## FX
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assigned type | Parametric EQ |
-
-This block makes no audible contribution while disabled.
-
-## Delay
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assigned type | Digital |
-
-Keeping Delay off prevents the repeated low-string notes and rests from becoming blurred.
-
-## Reverb
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assigned type | Plate |
-
-The dry configuration produces tighter stops and a more immediate riff sound. Add ambience at the recording or mixing stage if required.
-
 ## Additional tone settings
-
-### Channel EQ
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Type | Parametric |
-| Position | Amp In |
-
-The EQ does not affect the sound while the block is disabled.
-
-### Noise suppressor
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Threshold | 35 |
-| Release | 45 |
-
-The Noise Suppressor is currently disabled. If the tone is noisy at playing volume, enable it using the existing Threshold and Release values as the starting point.
-
-Threshold 35 should control a moderate amount of idle noise without making the riff feel heavily gated. Lower it if sustained notes are cut short.
-
-### Pedal FX
-
-| Parameter | Value |
-| --- | --- |
-| On/Off | Off |
-| Assignment | Pedal Wah |
-| Position | Input |
-
-### Solo
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Solo Level | 50 |
-| Solo EQ | Off |
 
 ### Send/return
 
@@ -268,10 +186,9 @@ Reassess Gain, Bass, Presence, and Booster Drive whenever the physical playing v
 
 ### Too noisy
 
-1. Enable the Noise Suppressor.
-2. Begin with Threshold 35 and Release 45.
-3. Lower Threshold if sustained notes are being cut short.
-4. Reduce RAT Drive or Lead Gain before using an excessively high threshold.
+1. Reduce RAT Drive slightly.
+2. Reduce Lead Gain only if lowering RAT Drive is insufficient.
+3. Check cable routing and move away from electrical noise sources.
 
 ### Using lower-output pickups
 
@@ -296,4 +213,5 @@ Published gear reconstructions differ on parts of the precise *Kill ’Em All* r
 
 | Date | Change |
 | --- | --- |
+| 2026-08-07 | Removed unused disabled effects and optional settings from the guide. |
 | 2026-08-07 | Initial documented settings and adjustment guidance. |

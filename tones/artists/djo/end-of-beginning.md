@@ -37,8 +37,7 @@ The original arrangement becomes broader and dirtier during the choruses. With t
 ```text
 Input -> Booster: Warm OD -> Mod: Compressor -> Pushed Amp
       -> FX: Chorus -> Channel EQ (Amp Out) -> Noise Suppressor
-      -> Volume Pedal -> Send/Return (Off, Post FV)
-      -> Delay (Off) -> Reverb: Room -> Output
+      -> Volume Pedal -> Reverb: Room -> Output
 ```
 
 ## Amplifier
@@ -60,13 +59,12 @@ The Pushed amp supplies elasticity and mild breakup while leaving space for the 
 
 ## Effects overview
 
-| Block | On/Off | Type | Primary level/knob |
-| --- | --- | --- | ---: |
-| Booster | On | Warm OD | Drive 14 |
-| Mod | On | Compressor | Level 56 |
-| FX | On | Chorus | High Level 38 |
-| Delay | Off | Digital | Effect Level 0 |
-| Reverb | On | Room | Effect Level 13 |
+| Block | On/Off | Type | Primary level/knob | Usage |
+| --- | --- | --- | ---: | --- |
+| Booster | On | Warm OD | Drive 14 | Main tone |
+| Mod | On | Compressor | Level 56 | Main tone |
+| FX | On | Chorus | High Level 38 | Main tone |
+| Reverb | On | Room | Effect Level 13 | Main tone |
 
 ### Booster
 
@@ -162,32 +160,6 @@ The broad low-mid reduction prevents the compressed, chorused signal from accumu
 
 Keep the threshold low enough that sustained chords and the reverb tail decay naturally.
 
-### Pedal FX
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Position | Input |
-| Type | Pedal Wah |
-
-### Solo
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Solo Level | 50 |
-| Solo EQ | Off |
-
-### Send/return
-
-| Parameter | Value |
-| --- | ---: |
-| On/Off | Off |
-| Position | Post FV |
-| Mode | Series |
-| Send Level | 100 |
-| Return Level | 100 |
-
 ## Playback context
 
 These are practical starting conditions rather than mandatory stored settings.
@@ -236,4 +208,5 @@ These are practical starting conditions rather than mandatory stored settings.
 
 | Date | Change |
 | --- | --- |
+| 2026-08-07 | Removed unused disabled effects and optional settings from the guide. |
 | 2026-08-07 | Initial documented settings for the warm, chorused main rhythm sound. |
