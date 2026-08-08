@@ -7,6 +7,7 @@ Personal interpretations of sounds associated with particular artists or songs l
 - [Djo — End of Beginning (Warm Chorus Rhythm)](djo/end-of-beginning.md)
 - [Megadeth — Tornado of Souls (Rhythm + Solo)](megadeth/tornado-of-souls.md)
 - [Metallica — Enter Sandman (Main Rhythm)](metallica/enter-sandman.md)
+- [Metallica — Master of Puppets (Main Rhythm)](metallica/master-of-puppets.md)
 - [Metallica — Seek & Destroy (Main Riff)](metallica/seek-and-destroy.md)
 - [Red Hot Chili Peppers — Snow (Hey Oh) (Clean Arpeggio)](red-hot-chili-peppers/snow-hey-oh.md)
 
