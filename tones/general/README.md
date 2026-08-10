@@ -4,6 +4,7 @@ Reusable tones organised by style, gain level, texture, or playing purpose live 
 
 ## Index
 
+- [Clear Warm Practice Clean](clear-warm-practice-clean.md)
 - [Tight Heavy Metal Rhythm + Lead](tight-heavy-metal-rhythm-lead.md)
 
 ## Organisation
