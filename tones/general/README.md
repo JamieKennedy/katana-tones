@@ -4,7 +4,7 @@ Reusable tones organised by style, gain level, texture, or playing purpose live 
 
 ## Index
 
-No general tone guides have been published yet.
+- [Tight Heavy Metal Rhythm + Lead](tight-heavy-metal-rhythm-lead.md)
 
 ## Organisation
 
