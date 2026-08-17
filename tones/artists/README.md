@@ -5,6 +5,7 @@ Personal interpretations of sounds associated with particular artists or songs l
 ## Index
 
 - [Djo — End of Beginning (Warm Chorus Rhythm)](djo/end-of-beginning.md)
+- [Guns N’ Roses — Sweet Child O’ Mine (Intro + Solo)](guns-n-roses/sweet-child-o-mine.md)
 - [Iron Maiden — The Trooper (Rhythm + Harmony Lead)](iron-maiden/the-trooper.md)
 - [Megadeth — Tornado of Souls (Rhythm + Solo)](megadeth/tornado-of-souls.md)
 - [Metallica — Am I Savage? (One-Pedal Transition)](metallica/am-i-savage.md)
